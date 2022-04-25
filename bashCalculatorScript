@@ -1,0 +1,40 @@
+#!/bin/bash
+
+echo Hello! Can you give me your name please?
+
+read varname
+
+echo It\'s nice to meet you $varname!
+echo I\'m Calki the calculator companion.
+echo Would you like to add, subtract, multiply or divide today?
+echo 1 = add, 2 = subtract, 3 = multiply, 4 = divide
+
+read varchoice
+
+echo Excellent choice! Please give me the first number.
+
+read num1
+
+echo Please give me the second number.
+
+read num2
+
+if [[ $varchoice -eq 1 ]] ;
+        then
+        echo The sum of $num1 and $num2 is $((num1+num2))
+elif [[ $varchoice -eq 2 ]] ;
+        then
+        echo The difference of $num1 and $num2 is $((num1-num2))
+elif [[ $varchoice -eq 3 ]] ;
+        then
+        echo The product of $num1 and $num2 is $((num1*num2))
+elif [[ $varchoice -eq 4 ]] ;
+        then
+        echo Division of $num1 and $num2 is $((num1/num2))
+elif [[ $varchoice -gt 4 ]] ;
+        then
+        echo Please pick a number 1 through 4
+fi
+
+echo Do you want to continue?
+read
