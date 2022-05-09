@@ -1,0 +1,6 @@
+SELECT DISTINCT City
+FROM Station
+WHERE
+    not substring(city, 1, 1) in ('a','e','o','u','i')
+    and not substring(city, -1, 1) in ('a','e','o','u','i')
+ORDER BY city
