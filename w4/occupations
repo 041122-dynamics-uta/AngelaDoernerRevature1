@@ -14,4 +14,8 @@ LEFT JOIN
 ON t0.id=t3.id
 LEFT JOIN
 (select Name as n4, @anr:=@anr+1 AS id from Occupations where Occupation='Actor' order by Name) as t4
+<<<<<<< HEAD
 ON t0.id=t4.id
+=======
+ON t0.id=t4.id;
+>>>>>>> 9a5b099cadc0f64594ec800386ca31c1611034c2
