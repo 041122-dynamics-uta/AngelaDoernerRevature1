@@ -1,0 +1,9 @@
+select Name, (case when Marks = 100 then 10 else floor(Marks / 10) + 1 end) as Grade, Marks
+  from Students
+ where Marks >= 70
+ order by Grade desc, Name asc;
+
+select 'NULL', floor(Marks / 10) + 1 as Grade, Marks
+  from Students
+ where Marks < 70
+ order by Grade desc, Marks asc;
