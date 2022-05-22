@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DigitalRecordStoreModel\DigitalRecordStoreModel.csproj" />
+    <ProjectReference Include="..\GGStoreModel\GGStoreModel.csproj" />
   </ItemGroup>
 
 </Project>
