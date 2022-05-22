@@ -1,0 +1,5 @@
+C:\Users\angel\revatureStuff\angelaRepo\AngelaDoernerRevature1\P1\P1\GrandGamesStore\BusinessLayer\obj\Debug\net6.0\GGStoreDomain.csproj.AssemblyReference.cache
+C:\Users\angel\revatureStuff\angelaRepo\AngelaDoernerRevature1\P1\P1\GrandGamesStore\BusinessLayer\obj\Debug\net6.0\GGStoreDomain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\angel\revatureStuff\angelaRepo\AngelaDoernerRevature1\P1\P1\GrandGamesStore\BusinessLayer\obj\Debug\net6.0\GGStoreDomain.AssemblyInfoInputs.cache
+C:\Users\angel\revatureStuff\angelaRepo\AngelaDoernerRevature1\P1\P1\GrandGamesStore\BusinessLayer\obj\Debug\net6.0\GGStoreDomain.AssemblyInfo.cs
+C:\Users\angel\revatureStuff\angelaRepo\AngelaDoernerRevature1\P1\P1\GrandGamesStore\BusinessLayer\obj\Debug\net6.0\GGStoreDomain.csproj.CoreCompileInputs.cache

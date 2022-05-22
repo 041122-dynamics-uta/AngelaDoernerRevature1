@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessLayer\GGStoreDomain.csproj" />
+    <ProjectReference Include="..\GGstoreModel\GGStoreModel.csproj" />
+    <ProjectReference Include="..\Repo\GGStoreStoarge.csproj" />
+    <ProjectReference Include="..\GGRepo\GGStoreStoarge.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>
