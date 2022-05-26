@@ -1,0 +1,4 @@
+The syntax for this function is as follows: 
+Filter (Table*, Formula1, Formula2,...)
+
+The main premise for this argument is to filter through a table in order to find the data that satisfies the following arguments. These formulas can refer to columns or specific formula requirments.
